@@ -1,4 +1,5 @@
 import FeatureProducts from "../../components/featureProducts/FeatureProducts";
+import GetOff from "../../components/getOffSec/GetOff";
 
 
 
@@ -7,6 +8,8 @@ const Home = () => {
         <div>
             {/* hero */}
             <FeatureProducts/>
+            {/* get off */}
+            <GetOff/>
         </div>
     );
 };
